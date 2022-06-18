@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid red;
+  background: linear-gradient(360deg, #000000 14.29%, rgba(69, 69, 69, 0.9) 68.18%, rgba(69, 69, 69, 0.8) 98.49%, rgba(69, 69, 69, 0) 113.98%);
+}
+.footer-section{
+  width: 25%;
+  margin: 0.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  object-fit: cover;
+  border: 3px solid rgb(245, 143, 143);
+}
