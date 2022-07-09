@@ -28,7 +28,7 @@ a {
 }
 .footer-section{
   width: 25%;
-  padding: 1.5%;
+  padding: 5% 1.5% 1.5% 1.5%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

@@ -1,5 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
+import AnimatedNumber from "react-animated-number";
 
 const StatsCard = ({ icon, title, amount, color }) => {
   return (
@@ -28,7 +29,14 @@ const StatsCard = ({ icon, title, amount, color }) => {
         <span
           style={{ borderBottom: `5px solid ${color}`, paddingBottom: "3.5%" }}
         >
-          {amount}
+          <AnimatedNumber
+            value={amount}
+            duration={3000}
+            formatValue={(n) => n.toFixed(0)}
+            frameStyle={(percentage) =>
+              percentage > 20 && percentage < 80 ? { opacity: 0.5 } : {}
+            }
+          />
         </span>
       </h2>
       <h3

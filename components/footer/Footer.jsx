@@ -6,10 +6,9 @@ import { Icon } from "@iconify/react";
 import CustomedTextField from "./CustomedTextField";
 
 const Footer = () => {
-  
   return (
     <footer className="footer">
-      <div className="footer-section">
+      <div className="footer-section" style={{ padding: "1.5%" }}>
         <Image src={logo} alt="kesho congo logo" />
         <h3 className={footerStyles.title} style={{ textAlign: "center" }}>
           KESHO CONGO
