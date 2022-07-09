@@ -1,9 +1,14 @@
-html,
+*,html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  background: linear-gradient(76.84deg, rgba(91, 199, 143, 0.20151) 11.44%, rgba(91, 199, 143, 0.5) 21.21%, rgba(91, 199, 143, 0.5) 78.84%, rgba(91, 199, 143, 0.117108) 90.54%);
 }
 
 a {
@@ -11,14 +16,14 @@ a {
   text-decoration: none;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 .footer{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border: 3px solid red;
+  border: 0px solid red;
   background: linear-gradient(360deg, #000000 14.29%, rgba(69, 69, 69, 0.9) 68.18%, rgba(69, 69, 69, 0.8) 98.49%, rgba(69, 69, 69, 0) 113.98%);
 }
 .footer-section{
@@ -28,5 +33,5 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   object-fit: cover;
-  border: 3px solid rgb(245, 143, 143);
+  border: 0px solid rgb(245, 143, 143);
 }

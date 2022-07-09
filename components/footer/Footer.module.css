@@ -1,7 +1,7 @@
 .title{
     color: #fff;
     font-size: 1.6rem;
-    text-align: center;
+    text-align: left;
 }
 .icon{
     width: 40px;
@@ -13,4 +13,16 @@
     margin-bottom: 1rem;
     font-size: 1rem;
     color: #fff;
+    font-weight: 200;
+}
+.items a:hover{
+    font-weight: 500;
+    cursor: pointer;
+}
+.input{
+    margin-bottom: 1%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 200;
 }
