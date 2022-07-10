@@ -1,5 +1,5 @@
 import React from "react";
-import TextField from "../title/TextField";
+import TextField from "../utils/TextField";
 const background = "/img/background.png";
 
 const Team = () => {
